@@ -8,7 +8,7 @@ body{
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   background: #3023ae;
-  background: -webkit-linear-gradient(60deg, #3823ae 0%,#c86dd7 100%);
+  background: -webkit-linear-gradient(60deg, green 0%,white 100%);
 }
 
 ul{
@@ -18,10 +18,7 @@ ul{
   list-style: none;
   background: #fff;
   border-radius: 5px;
-  -webkit-box-shadow: 3px 4px 14px 0px rgba(0,0,0,0.39);
-  -moz-box-shadow: 3px 4px 14px 0px rgba(0,0,0,0.39);
-  box-shadow: 3px 4px 14px 0px rgba(0,0,0,0.39);
-}
+ }
 
 button{
   cursor:pointer;
@@ -44,10 +41,6 @@ li>button{
   opacity: 0.6;
   transition: opacity 1s;
 
-}
-li>button:hover{
-  opacity:1;
-  transition:opacity 1s;
 }
 
 .title{
@@ -84,8 +77,7 @@ li>button:hover{
   padding:10px;
   background: #fff;
   border-radius: 10px;
-  -webkit-box-shadow: 3px 4px 14px 0px rgba(0,0,0,0.39);
-  box-shadow: 3px 4px 14px 0px rgba(0,0,0,0.39);
+ 
 }
 
 
@@ -96,10 +88,3 @@ input{
   font-size:1.2em;
 }
 
-.danger{
-  background-color: red;
-  color:#fff;
-  font-weight: bold;
-  padding: 5px;
-  margin-top:10px;
-}
